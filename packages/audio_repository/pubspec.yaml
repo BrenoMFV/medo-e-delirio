@@ -1,0 +1,26 @@
+name: audio_repository
+description: The Repository for the audios
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.8.1
+  equatable: ^2.0.5
+  http: ^1.1.0
+  meta: ^1.7.0
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  build_runner: ^2.0.0
+  coverage: ^1.0.3
+  json_serializable: ^6.3.1
+  mocktail: ^1.0.0
+  test: ^1.16.4
+
+
+flutter:
